@@ -646,7 +646,7 @@ a:focus {
   transform: scale(1.1);
 }
 
-.btn-box {
+.butn-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,7 +656,7 @@ a:focus {
   margin-top: 45px;
 }
 
-.btn-box a {
+.butn-box a {
   display: inline-block;
   padding: 10px 55px;
   background-color: #8f6cf7;
@@ -667,7 +667,7 @@ a:focus {
   border: none;
 }
 
-.btn-box a:hover {
+.butn-box a:hover {
   background-color: #683af4;
 }
 
