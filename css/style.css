@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+a {
+  color: inherit;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
@@ -19,6 +23,7 @@ body {
 .pagVazia {
   background-color: #efc8c8;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -639,6 +644,31 @@ a:focus {
 .food_section .box:hover .img-box img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.btn-box a {
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #8f6cf7;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.btn-box a:hover {
+  background-color: #683af4;
 }
 
 .food_section .btn-box {
